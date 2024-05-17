@@ -19,3 +19,13 @@ console.log(`For a bill of $${testBill}, the tip amount is $${tipAmount}.`);
 const billsSet1 = [275, 40, 430];
 const tipsSet1 = billsSet1.map(bill => calcTip(bill));
 const totalsSet1 = billsSet1.map((bill, index) => bill + tipsSet1[index]);
+
+console.log("Data Set 1:");
+console.log("Bills:", billsSet1);
+console.log("Tips:", tipsSet1);
+console.log("Totals:", totalsSet1);
+
+const billsSet2 = [125, 555, 44];
+const tipsSet2 = billsSet2.map(bill => calcTip(bill));
+const totalsSet2 = billsSet2.map((bill, index) => bill + tipsSet2[index]);
+
