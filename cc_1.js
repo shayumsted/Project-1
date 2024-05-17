@@ -14,4 +14,4 @@ const testBill = 100;
 const tipAmount = calcTip(testBill);
 displayBillTipTotal(testBill, tipAmount)
 
-console.log(`For a bill of $${billAmount}, the tip amount is $${tipAmount}.`); 
+console.log(`For a bill of $${testBill}, the tip amount is $${tipAmount}.`); 
