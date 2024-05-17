@@ -1,2 +1,1 @@
-# Project-1
-Coding assignment 1- tip calculator
+This project is a customized tip calculator for the user to easily generate the appropriate tip amount that should be given during a payment or bill. The calculator is catered to a 15% tip for any bills between 50 and 300 dollars. A tip of 20% is established for any other bill amount. This project allows for an easier understanding and quicker calculation of how much of a tip should be provided at a restaurant or store instead of needing a physical calculator or asking someone for assistance.
