@@ -6,9 +6,18 @@ def calculate_tip(bill):
 # Using ternary operator to determine the tip percentage
     return bill * (0.15 if 50 <= bill <= 300 else 0.20)
 
-# Example usage
-bill_amount = 275  # Example bill amount
+# Example bill amount
+bill_amount=275 
 tip = calculate_tip(bill_amount)
 total = bill_amount + tip
-print(f"The bill was ${bill_amount}, the tip was ${tip:.2f}, and the total value ${total:.2f}")
+print(f"The bill was $(bill_amount), the tip was $(tip:.2f), and the total value $(total:.2f)")
 
+# Tip calculator with calcTip function
+# Function to calculate the tip based on the bill amount
+def calcTip(bill):
+    return bill * (0.15 if 50 <= bill <= 300 else 0.20)
+
+# Testing the calcTip function
+test_bill = 100
+test_tip = calcTip(test_bill)
+print(f"For a bill of $(test_bill), the tip is $(test_tip:.2f)")
