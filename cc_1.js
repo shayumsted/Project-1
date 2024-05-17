@@ -29,3 +29,7 @@ const billsSet2 = [125, 555, 44];
 const tipsSet2 = billsSet2.map(bill => calcTip(bill));
 const totalsSet2 = billsSet2.map((bill, index) => bill + tipsSet2[index]);
 
+console.log("Data Set 1:");
+console.log("Bills:", billsSet1);
+console.log("Tips:", tipsSet1);
+console.log("Totals:", totalsSet1);
