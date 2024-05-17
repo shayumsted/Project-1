@@ -1,4 +1,3 @@
-U78784426
 
 // Initial logic for calculating tip using ternary operator
 const calculateTip = (bill) => (bill >= 50 && bill <= 300) ? bill *0.15 : bill* 0.20;
