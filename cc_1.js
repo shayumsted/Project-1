@@ -22,15 +22,15 @@ const tips1 = bills1.map(bill => calcTip(bill));
 const total1 = bills1.map((bill, index) => bill + tips1[index]);
 
 console.log("Data Set 1:");
-console.log("Bills:", bills1);
-console.log("Tips:", tips1);
-console.log("Totals:", total1);
+console.log("Bills:", bills1); // Bills: [ 275, 40, 430 ]
+console.log("Tips:", tips1); // Tips: [ 41.25, 8, 86 ]
+console.log("Totals:", total1); // Totals: [ 316.25, 48, 516 ]
 
 const bills2 = [125, 555, 44];
 const tips2 = bills2.map(bill => calcTip(bill));
 const total2 = bills2.map((bill, index) => bill + tips2[index]);
 
 console.log("Data Set 2:");
-console.log("Bills:", bills2);
-console.log("Tips:", tips2);
-console.log("Totals:", total2); 
+console.log("Bills:", bills2); // Bills: [ 125, 555, 44 ]
+console.log("Tips:", tips2); // Tips: [ 18.75, 111, 8.8 ]
+console.log("Totals:", total2); // Totals: [ 143.75, 666, 52.8 ]
